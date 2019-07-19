@@ -7,10 +7,11 @@
     padding: 10px 15px;
     width: 50%;
     text-align: center;
+    color: @color; 
     a {
         text-decoration: none;
         font-size: 1.6rem;
-        color: @color;  
+        color: inherit;  
     }
     
 }
@@ -21,9 +22,13 @@
 	font-weight: bold;
 
 	@keyframes colorAnim {
-		from {background-color: @fromColor;}
-        to {background-color: @toColor;}
-        from {text-color: @fromColor2;}
-        to {text-color: @toColor2;}
+		from {
+            background-color: @fromColor;
+            color: @fromColor2;
+        }
+        to {
+            background-color: @toColor;
+            color: @toColor2;
+        }
 	}
 }
