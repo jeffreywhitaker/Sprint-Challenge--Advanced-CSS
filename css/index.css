@@ -257,6 +257,25 @@ footer {
   font-size: 1.6rem;
   color: white;
 }
+.home .walk .walk-text .btn:hover {
+  animation-name: colorAnim;
+  animation-duration: 2s;
+  font-weight: bold;
+}
+@keyframes colorAnim {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: white;
+  }
+  from {
+    text-color: white;
+  }
+  to {
+    text-color: black;
+  }
+}
 .home .walk .walk-text .walk-img {
   width: 46%;
   margin-left: 4%;

@@ -58,8 +58,11 @@
       }
 
       .btn {
-        .button-mixin(white, black, 10px, black)
+        .button-mixin(white, black, 10px, black);
     }
+      .btn:hover {
+        .hover(black, white, white, black);
+      }
 
     .walk-img {
       width: 46%;
