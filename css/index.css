@@ -168,6 +168,9 @@ nav {
   background-color: #F6F6F6;
   padding: 10px 0;
   border-bottom: 1px solid #5E6164;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 nav div {
   display: flex;
@@ -199,6 +202,7 @@ footer {
 }
 .headerimgdiv {
   text-align: center;
+  margin-top: 80px;
 }
 .headerimgdiv .headerimg {
   display: block;
